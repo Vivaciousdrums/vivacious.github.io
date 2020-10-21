@@ -3,25 +3,32 @@
   padding: 0;
 }
 
+body {
+  background: rgb(105, 102, 102);
+}
+
 .big-container {
   width: 80%;
+  margin: auto;
   height: 80vh;
   position: relative;
-  background: blue;
 }
 
 .container {
   width: 90%;
-  background: red;
-  display: flex;
+  display: grid;
+  color: rgb(201, 199, 209);
+  background: rgb(66, 62, 62);
+  grid-template-columns: 1fr 1fr;
 }
 
 .bio-text {
   align-items: center;
+  height: 69vh;
 }
 
 .bio-img img {
   width: 60%;
-  height: auto;
+  height: 69vh;
   z-index: 1;
 }
