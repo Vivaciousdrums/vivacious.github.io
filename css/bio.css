@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.big-container {
+  width: 80%;
+  height: 80vh;
+  position: relative;
+  background: blue;
+}
+
+.container {
+  width: 90%;
+  background: red;
+  display: flex;
+}
+
+.bio-text {
+  align-items: center;
+}
+
+.bio-img img {
+  width: 60%;
+  height: auto;
+  z-index: 1;
+}
