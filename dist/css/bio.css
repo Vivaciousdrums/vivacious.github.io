@@ -6,6 +6,9 @@
 body {
   background: rgb(105, 102, 102);
 }
+span {
+  color: rgb(122, 111, 167);
+}
 
 .big-container {
   width: 80%;
@@ -15,9 +18,10 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 50%;
   display: grid;
-  color: rgb(201, 199, 209);
+  text-align: center;
+  color: #c6bde7;
   background: rgb(66, 62, 62);
   grid-template-columns: 1fr 1fr;
 }
@@ -25,6 +29,14 @@ body {
 .bio-text {
   align-items: center;
   height: 69vh;
+  width: 80vh;
+  padding: 15px;
+}
+
+.bio-text h3 {
+  color: #13123f91;
+  border-bottom: 1px solid #a5a5b991;
+  margin-bottom: 15px;
 }
 
 .bio-img img {

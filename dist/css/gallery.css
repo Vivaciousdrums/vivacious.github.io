@@ -98,10 +98,10 @@ header {
   object-fit: cover;
 }
 
-.container .box.a {
-  grid-row: span 2;
+.container .box.d {
+  grid-column: span 3;
 }
 
-.container .box.g {
-  grid-row: span 2;
+.container .box.e {
+  grid-column: span 3;
 }
